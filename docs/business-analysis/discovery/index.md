@@ -22,8 +22,12 @@ Provide compact navigation to pre-solution evidence and decisions. Load this ind
 | Product brief | Consolidated product intent and recommendation | Pending approval | [product-brief.md](product-brief.md) |
 | Problem statement | Problem, symptoms, causes, impact, and outcome | Draft | [problem-statement.md](problem-statement.md) |
 | Current state | Existing workflow, constraints, and gaps | Draft | [current-state.md](current-state.md) |
+| Stakeholder map | Roles, accountability, authority, and trade-offs | Draft | [stakeholder-map.md](stakeholder-map.md) |
+| Value and success definition | Capability-to-value and learning model | Draft | [value-and-success-criteria.md](value-and-success-criteria.md) |
+| Prototype scope | Consolidated in/out/deferred boundary and dependencies | Pending approval | [scope.md](scope.md) |
+| Workflows | Current/target flows, handoffs, exceptions, and operations | Draft | [workflows.md](workflows.md) |
 | Traceability matrix | Need-to-outcome mapping | Draft | [traceability-matrix.md](traceability-matrix.md) |
-| BA quality assessment | Readiness assessment against quality objects | Not ready | [ba-quality-assessment.md](ba-quality-assessment.md) |
+| BA quality assessment | Supplied-rubric review attempts and final decision | Passed | [ba-quality-assessment.md](ba-quality-assessment.md) |
 
 ## Object Collections
 
@@ -50,3 +54,4 @@ Provide compact navigation to pre-solution evidence and decisions. Load this ind
 2. Product direction is not final until [GATE-001](approval-gates/GATE-001-options-and-direction-approval.md) is approved.
 3. Solution design must not begin until [GATE-002](approval-gates/GATE-002-product-brief-approval.md) is approved.
 4. Implementation, backlog execution, and prototype construction must not begin until both GATE-002 and [GATE-003](approval-gates/GATE-003-prototype-scope-approval.md) are approved.
+5. Later material decisions follow the [approval gate operating policy](approval-gates/operating-policy.md); an earlier approval does not pre-approve a later gate.

@@ -12,7 +12,7 @@
 | Source | ForgePilot business analysis conversation and linked evidence |
 | Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md) |
 | Evidence | [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-003](evidence/EVD-003-repository-gap-observation.md) |
-| Related objects | [Problem Statement](problem-statement.md), [Options](options/index.md) |
+| Related objects | [Problem Statement](problem-statement.md), [Workflows](workflows.md), [Options](options/index.md) |
 | Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Current Workflow
@@ -44,4 +44,4 @@ The current actors are the Solo Builder, Client Approval Authority, Codex Delive
 
 ## Current-State Conclusion
 
-The repository has a substantial statement of intended behavior but remains pre-solution: its product direction, brief, and prototype scope are not approved, and its value hypotheses are unvalidated.
+The repository has a substantial statement of intended behavior but remains pre-solution: its product direction, brief, and prototype scope are not approved, and its value hypotheses are unvalidated. The fuller current/target handoff and exception model is maintained in [DISC-009](workflows.md).

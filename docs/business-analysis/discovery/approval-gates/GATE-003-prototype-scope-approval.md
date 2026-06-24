@@ -12,12 +12,12 @@
 | Source | ForgePilot business analysis conversation and linked evidence |
 | Source need(s) | [SN-001](../stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-002](../stakeholder-needs/SN-002-safe-autonomous-operation.md) |
 | Evidence | [EVD-001](../evidence/EVD-001-stakeholder-request-2026-06-24.md) |
-| Related objects | [Scope Index](../scope-items/index.md) |
+| Related objects | [Prototype Scope](../scope.md), [Scope Index](../scope-items/index.md), [Traceability Matrix](../traceability-matrix.md), [Operating Policy](operating-policy.md) |
 | Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Approval Condition
 
-Approve, revise, or reject the complete set of in-scope, out-of-scope, and deferred scope objects and their acceptance boundaries.
+Approve, revise, or reject DISC-008, including its capability slices, requirement boundary, out-of-scope and deferred items, dependencies, constraints, and acceptance boundary.
 
 ## Decision Record
 

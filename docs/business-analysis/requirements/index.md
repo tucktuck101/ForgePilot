@@ -8,7 +8,7 @@
 | Status | Draft |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | Requirement collections linked below |
-| Linked artefacts | [Discovery Index](../discovery/index.md), [User Stories](../user-stories/index.md) |
+| Linked artefacts | [Discovery Index](../discovery/index.md), [User Stories](../user-stories/index.md), [Quality and Verification Baseline](quality-and-verification-baseline.md) |
 | Update rule | Update when a requirement collection or its prioritisation model changes |
 
 ## Collections
@@ -20,3 +20,5 @@
 | Nonfunctional requirements | 20 | [nonfunctional-requirements/index.md](nonfunctional-requirements/index.md) |
 
 All live requirements use MoSCoW priority and link to source needs and evidence.
+
+The [requirements quality and verification baseline](quality-and-verification-baseline.md) defines handoff quality, explicit verification for every nonfunctional requirement, and the distinction between product priority and pending prototype inclusion.

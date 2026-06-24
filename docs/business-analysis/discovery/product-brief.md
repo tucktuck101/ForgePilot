@@ -28,6 +28,7 @@ Enable a user to move from a vague idea to an approved, working prototype throug
 - Problem: [Problem Statement](problem-statement.md).
 - Current state: [Current State](current-state.md).
 - Target users: [Target Users Index](target-users/index.md).
+- Stakeholder authority: [Stakeholder Map](stakeholder-map.md).
 - Stakeholder needs: [Stakeholder Needs Index](stakeholder-needs/index.md).
 
 ## Proposed Direction
@@ -40,10 +41,13 @@ The prototype should test whether repository instructions, atomic doc objects, e
 
 ## Scope and Outcomes
 
-- Scope: [Scope Items Index](scope-items/index.md).
+- Consolidated prototype scope: [Prototype Scope](scope.md).
+- Atomic scope items: [Scope Items Index](scope-items/index.md).
+- Current and target workflows: [Workflow Analysis](workflows.md).
 - Prototype hypotheses: [Prototype Hypotheses Index](prototype-hypotheses/index.md).
 - Value hypotheses: [Value Hypotheses Index](value-hypotheses/index.md).
-- Success criteria: [Success Criteria Index](success-criteria/index.md).
+- Value and success model: [Value and Success Definition](value-and-success-criteria.md).
+- Atomic success criteria: [Success Criteria Index](success-criteria/index.md).
 - Risks, assumptions, and questions: [Risks](risks/index.md), [Assumptions](assumptions/index.md), [Open Questions](open-questions/index.md).
 
 ## Operating Principles
@@ -62,3 +66,4 @@ The prototype should test whether repository instructions, atomic doc objects, e
 - Prototype scope: Pending GATE-003.
 - Solution design is blocked while GATE-002 is pending.
 - Implementation is blocked while GATE-002 or GATE-003 is pending.
+- Later material decisions remain governed by the [approval operating policy](approval-gates/operating-policy.md).

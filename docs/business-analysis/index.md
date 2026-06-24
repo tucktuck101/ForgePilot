@@ -15,10 +15,12 @@
 
 | Collection | Purpose | Link |
 |---|---|---|
-| Discovery | Pre-solution problem, evidence, options, scope, outcomes, and approvals | [discovery/index.md](discovery/index.md) |
+| Discovery | Pre-solution problem, stakeholders, value, workflows, evidence, options, scope, outcomes, and approvals | [discovery/index.md](discovery/index.md) |
 | Personas | Canonical participant profiles | [personas/index.md](personas/index.md) |
 | User stories | Prioritised user and actor needs | [user-stories/index.md](user-stories/index.md) |
 | Requirements | Prioritised business, functional, and nonfunctional requirements | [requirements/index.md](requirements/index.md) |
+
+The live pre-solution gate report is [DISC-005](discovery/ba-quality-assessment.md). Templates in each collection are authoring aids and are not project truth.
 
 ## Current Gate State
 
