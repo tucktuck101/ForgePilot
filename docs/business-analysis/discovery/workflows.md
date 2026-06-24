@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-009 |
 | Document type | Workflow Analysis |
-| Status | Draft; pending product-brief approval |
+| Status | Draft |
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, operators, reviewers |
 | Source | Problem statement, current state, target users, stories, requirements, and approval rules |
@@ -32,9 +32,9 @@
 |---|---|---|---|---|
 | 1. Repository intake | Repo Bootstrapper/Codex | Repository state and existing conventions | Intake findings, conflicts, constraints | Conflicting existing files require explicit approval before resolution |
 | 2. Discovery | Codex with Product Owner | Vague idea, evidence, stakeholder answers | Problem, users, needs, value, risks, workflows, options, requirements, candidate scope | Facts, assumptions, recommendations, and open questions remain distinct |
-| 3. Direction decision | Approval Authority | Options, evidence limits, risks, recommendation | GATE-001 approve/revise/reject record | Product direction remains provisional while pending |
-| 4. Product-brief decision | Approval Authority | Complete discovery package and BA gate result | GATE-002 approve/revise/reject record | Solution design remains blocked while pending |
-| 5. Prototype-scope decision | Approval Authority | Consolidated scope, dependencies, exclusions, traceability | GATE-003 approve/revise/reject record | Backlog execution and implementation remain blocked while pending |
+| 3. Direction decision | Approval Authority | Options, evidence limits, risks, recommendation | GATE-001 approve/revise/reject record | Product direction is approved (GATE-001); the recommended direction may now inform solution design; future revisions require re‑approval |
+| 4. Product-brief decision | Approval Authority | Complete discovery package and BA gate result | GATE-002 approve/revise/reject record (approved) | Solution design may proceed using the approved product brief; architecture, material UX/product-flow, external-service, credential, destructive-action, deployment, merge, and final-acceptance decisions remain gated |
+| 5. Prototype-scope decision | Approval Authority | Consolidated scope, dependencies, exclusions, traceability | GATE-003 approve/revise/reject record (approved) | Backlog execution, prototype construction, and implementation may proceed with the approved scope; later gates governing design, architecture, external services, credentials, deployment, destructive actions, and merge still apply |
 | 6. Solution design | Codex with reviewer | Approved brief and scope | Options, decision records, acceptance design | Material UX, architecture, stack, or external-service choices use the relevant runtime gate |
 | 7. Backlog handoff | Codex | Approved scope and sufficient design | Gated, traceable delivery issues | Issue is not executable unless prerequisite gates are approved |
 | 8. Delivery and verification | Codex | One approved issue/sprint | Tested change, state updates, draft PR | Destructive actions, credentials, deployment, and merge require their gates |
@@ -47,14 +47,12 @@ The target workflow spans work types with different purposes, outputs, constrain
 | Work type | Required behaviour and outcome |
 |---|---|
 | Discovery and business analysis | Reduce ambiguity; separate facts, assumptions, recommendations, and questions; improve traceability; do not begin solution design or implementation |
-| Product scope shaping | Clarify value, outcomes, dependencies, exclusions, and approval-ready choices; do not treat proposed direction or scope as approved |
+| Product scope shaping | Clarify value, outcomes, dependencies, exclusions, and approval-ready choices; do not treat proposed direction or scope as approved until the relevant gate is recorded |
 | Solution-design preparation | Use approved product inputs, compare alternatives, expose trade-offs, and prepare decision requests; do not implement before applicable approvals |
 | Implementation sprint | Make changes bounded by approved scope and the current work item; run relevant checks; update affected documentation and delivery state; prepare review-ready evidence |
 | Validation and QA | Execute applicable checks, record evidence, distinguish failures caused by current work from unrelated failures, and avoid silent scope expansion |
 | Pull-request readiness | Confirm scope, traceability, checks, documentation, summary, and known limitations; do not merge without approval |
 | Context recovery | Stop starting new work, preserve compact current state and next steps, and resume from durable context rather than reconstructing intent from memory |
-
-A single generic instruction set may be insufficient across these work types. Without stage context, Codex may implement during analysis, make design decisions before approval, miss quality or approval gates, produce inconsistent artefacts, or continue past a required stop condition.
 
 This finding states a capability and process need. [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md) now records a preferred layered representation using concise `AGENTS.md` routing, reusable skills, and issue-level execution metadata. That preference does not approve its detailed design, automation, or implementation, which may proceed only during an approved solution-design stage.
 
