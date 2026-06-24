@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-001 |
 | Document type | Product Brief |
-| Status | Pending approval |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -33,7 +33,7 @@ Enable a user to move from a vague idea to an approved, working prototype throug
 
 ## Proposed Direction
 
-The current recommendation is [OPT-002: Reusable GitHub template](options/OPT-002-reusable-github-template.md). This direction remains provisional until GATE-001 is approved.
+The current recommendation is [OPT-002: Reusable GitHub template](options/OPT-002-reusable-github-template.md). This direction has been approved via GATE-001 and may be treated as the basis for solution design.
 
 ## Prototype Intent
 
@@ -73,9 +73,9 @@ Static publication of generated documentation should be governed as documentatio
 
 ## Approval State
 
-- Options and direction: Pending GATE-001.
-- Product brief: Pending GATE-002.
-- Prototype scope: Pending GATE-003.
-- Solution design is blocked while GATE-002 is pending.
-- Implementation is blocked while GATE-002 or GATE-003 is pending.
-- Later material decisions remain governed by the [approval operating policy](approval-gates/operating-policy.md).
+- Options and direction: Approved via GATE-001 (Product Owner / Jeff, 2026-06-25).
+- Product brief: Approved via GATE-002 (Product Owner / Jeff, 2026-06-25).
+- Prototype scope: Approved via GATE-003 (Product Owner / Jeff, 2026-06-25).
+- Solution design may proceed using the approved brief, subject to later gates (architecture, material UX/product flow, external services, credentials, destructive actions, deployment, merge, and final acceptance).
+- Implementation, backlog execution, and prototype construction may proceed once sufficient solution design is recorded; later approval gates still govern architecture, UX/product flows, external services, credentials, deployment, destructive actions, PR merge, and final acceptance.
+- Later material decisions remain governed by the [approval gate operating policy](approval-gates/operating-policy.md).
