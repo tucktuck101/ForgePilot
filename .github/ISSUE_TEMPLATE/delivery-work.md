@@ -6,7 +6,7 @@ labels: ""
 assignees: ""
 ---
 
-> Do not execute this issue while the product brief or prototype scope approval is pending. Drafting an issue does not grant approval.
+> Do not execute this issue until the necessary design and architecture approvals are granted. Drafting an issue does not grant approval.
 
 ## Goal
 
@@ -37,10 +37,10 @@ State one bounded outcome and the value or risk it addresses.
 
 ## Approval Gates
 
-- GATE-002 product brief: Pending / Approved — decision reference:
-- GATE-003 prototype scope: Pending / Approved — decision reference:
-- Additional material gate triggers:
-- Work that remains blocked:
+- GATE-002 product brief: Approved — decision reference: ChatGPT conversation approval instruction (2026-06-25).
+- GATE-003 prototype scope: Approved — decision reference: ChatGPT conversation approval instruction (2026-06-25).
+- Additional material gate triggers: material UX/product flow, significant architecture/stack decisions, external services/credentials/resources, conflict/destructive/deployment/merge, final prototype acceptance.
+- Work that remains blocked: Implementation work that relies on unapproved design, architecture, stack, external service, or destructive actions remains blocked until the respective gate is approved.
 
 ## Test Expectations
 
