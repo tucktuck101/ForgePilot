@@ -24,7 +24,7 @@ The live pre-solution gate report is [DISC-005](discovery/ba-quality-assessment.
 
 ## Current Gate State
 
-- Options and recommended direction: **Pending**.
-- Product brief: **Pending**.
-- Prototype scope: **Pending**.
-- Solution design and implementation remain blocked as defined in the [discovery approval gates](discovery/approval-gates/index.md).
+- Options and recommended direction: **Approved** by [GATE-001](discovery/approval-gates/GATE-001-options-and-direction-approval.md).
+- Product brief: **Approved** by [GATE-002](discovery/approval-gates/GATE-002-product-brief-approval.md).
+- Prototype scope: **Approved** by [GATE-003](discovery/approval-gates/GATE-003-prototype-scope-approval.md).
+- ForgePilot is ready to begin Solution Design from the approved pre-solution package. Later material decisions remain governed by the [discovery approval gates](discovery/approval-gates/index.md) and [operating policy](discovery/approval-gates/operating-policy.md).
