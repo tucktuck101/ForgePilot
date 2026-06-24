@@ -34,7 +34,7 @@ After the product brief and scope are approved, Codex should create:
 - `testing-strategy.md`: detailing the approach to unit, integration, and end-to-end testing.
 - `deployment-strategy.md`: proposing how the application will be packaged and deployed.
 
-Each document should follow the doc-object format and be placed under `docs/business-analysis/solution-design/`.
+Each document should follow the doc-object format and be placed under `docs/solution-design/`.
 
 ## Acceptance Criteria
 
