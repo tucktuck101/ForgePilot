@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | GATE-001 |
 | Document type | Approval Gate |
-| Status | Pending |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -21,7 +21,9 @@ Approve, revise, or reject the recommendation of OPT-002 after reviewing all opt
 
 ## Decision Record
 
-- Approver: Not recorded.
-- Approval date: Not recorded.
-- Decision reference: Not recorded.
-- Consequence while pending: product direction remains a recommendation and cannot be treated as final.
+- Decision: Approved.
+- Approver: Jeff, Product Owner / Approval Authority.
+- Approval date: 2026-06-25.
+- Decision reference: Chat approval on 2026-06-25: "I'll approve all 3 and any repo updates you want to make that reflect this."
+- Approved option: [OPT-002: Reusable GitHub template](../options/OPT-002-reusable-github-template.md).
+- Consequence after approval: product direction may be treated as final for Solution Design inputs. Later material decisions remain governed by the [Approval Gate Operating Policy](operating-policy.md).
