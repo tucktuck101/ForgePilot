@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | OPT-006 |
 | Document type | Option |
-| Status | Recommended; pending approval |
+| Status | Approved direction |
 | Priority | Must |
 | Owner/audience | Product Owner, users, reviewers, maintainers, Codex |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -24,7 +24,7 @@ Provide a future human-friendly documentation portal generated from the authorit
 - Benefits: preserves one version-controlled source while enabling improved reading, navigation, search, and presentation for humans.
 - Costs: later solution design must define generation, information architecture, publication controls, maintenance, and validation.
 - Risks: publishing generated documentation may expose sensitive, private, client-confidential, credential-bearing, production-only, or otherwise restricted information.
-- Recommendation: adopt the generated-portal direction at the BA level, subject to approval, while deferring implementation design and tooling selection.
+- Recommendation: adopt the generated‑portal direction at the BA level; this direction has been approved via GATE‑001; implementation design and tooling selection remain deferred to solution design.
 
 ## Deferred Implementation Decision
 
