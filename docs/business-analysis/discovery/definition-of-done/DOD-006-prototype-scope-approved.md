@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DOD-006 |
 | Document type | Definition of Done Item |
-| Status | Pending |
+| Status | Complete |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -17,8 +17,8 @@
 
 ## Completion Condition
 
-GATE-003 records an explicit approval decision before implementation.
+GATE-003 records an explicit approval decision (satisfied on 2026-06-25).
 
 ## Verification
 
-Record objective evidence or the linked approval decision before changing this item to complete.
+Objective evidence is recorded in the GATE-003 decision record (Approver: Product Owner / Jeff; Approval date: 2026-06-25; Decision reference: ChatGPT conversation approval instruction).
