@@ -18,7 +18,7 @@
 | DOD-001 | Required discovery objects exist | Documentation | Must | Complete | [DOD-001-required-discovery-objects-exist.md](DOD-001-required-discovery-objects-exist.md) |
 | DOD-002 | Indexes and links validate | Integrity | Must | Complete | [DOD-002-indexes-and-links-validate.md](DOD-002-indexes-and-links-validate.md) |
 | DOD-003 | Priorities and traceability are complete | Traceability | Must | Complete | [DOD-003-priorities-and-traceability-complete.md](DOD-003-priorities-and-traceability-complete.md) |
-| DOD-004 | Product direction is approved | Approval | Must | Pending | [DOD-004-product-direction-approved.md](DOD-004-product-direction-approved.md) |
-| DOD-005 | Product brief is approved | Approval | Must | Pending | [DOD-005-product-brief-approved.md](DOD-005-product-brief-approved.md) |
-| DOD-006 | Prototype scope is approved | Approval | Must | Pending | [DOD-006-prototype-scope-approved.md](DOD-006-prototype-scope-approved.md) |
-| DOD-007 | Implementation remains blocked until approvals | Governance | Must | Pending | [DOD-007-implementation-remains-blocked.md](DOD-007-implementation-remains-blocked.md) |
+| DOD-004 | Product direction is approved | Approval | Must | Complete | [DOD-004-product-direction-approved.md](DOD-004-product-direction-approved.md) |
+| DOD-005 | Product brief is approved | Approval | Must | Complete | [DOD-005-product-brief-approved.md](DOD-005-product-brief-approved.md) |
+| DOD-006 | Prototype scope is approved | Approval | Must | Complete | [DOD-006-prototype-scope-approved.md](DOD-006-prototype-scope-approved.md) |
+| DOD-007 | Implementation remains blocked until approvals | Governance | Must | Complete | [DOD-007-implementation-remains-blocked.md](DOD-007-implementation-remains-blocked.md) |
