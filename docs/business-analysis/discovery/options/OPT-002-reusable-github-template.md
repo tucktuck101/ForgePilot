@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | OPT-002 |
 | Document type | Option |
-| Status | Pending approval |
+| Status | Approved direction |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -24,4 +24,4 @@ Package durable instructions, atomic BA objects, templates, validation conventio
 - Benefits: Git-native, portable, inspectable, version-controlled, and aligned with the documented operating model.
 - Costs: requires careful conflict handling and maintenance of template conventions.
 - Risks: repository instructions alone may not provide enough orchestration for every stack.
-- Recommendation: approve as the primary direction for the prototype, subject to GATE-001.
+- Recommendation: this option has been approved as the primary direction for the prototype via GATE‑001; subsequent design and implementation decisions remain subject to later gates.
