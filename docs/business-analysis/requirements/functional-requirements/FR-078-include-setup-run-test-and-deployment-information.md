@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-078 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-009](../../discovery/stakeholder-needs/SN-009-complete-prototype-handoff.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | [Functional Requirements Index](index.md) |
+| Related objects | [Functional Requirements Index](index.md), [SN-009](../../discovery/stakeholder-needs/SN-009-complete-prototype-handoff.md) |
 | Update rule | Update when this requirement changes materially |
 
 ## Summary

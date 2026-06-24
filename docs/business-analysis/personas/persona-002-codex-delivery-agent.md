@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | persona-002 |
 | Document type | Persona |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-005](../discovery/stakeholder-needs/SN-005-traceable-delivery-and-decisions.md) |
+| Evidence | [EVD-001](../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | [Personas Index](./index.md) |
+| Related objects | [Personas Index](./index.md), [SN-005](../discovery/stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [TU-003](../discovery/target-users/TU-003-codex-delivery-agent.md) |
 | Update rule | Update when this persona changes materially |
 
 ## Profile

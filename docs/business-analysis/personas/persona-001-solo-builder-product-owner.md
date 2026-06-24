@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | persona-001 |
 | Document type | Persona |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-001](../discovery/stakeholder-needs/SN-001-rapid-prototype-delivery.md) |
+| Evidence | [EVD-001](../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | [Personas Index](./index.md) |
+| Related objects | [Personas Index](./index.md), [SN-001](../discovery/stakeholder-needs/SN-001-rapid-prototype-delivery.md), [TU-001](../discovery/target-users/TU-001-solo-builder-product-owner.md) |
 | Update rule | Update when this persona changes materially |
 
 ## Profile

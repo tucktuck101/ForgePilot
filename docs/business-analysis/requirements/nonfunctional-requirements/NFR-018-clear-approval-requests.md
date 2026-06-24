@@ -4,21 +4,34 @@
 
 | Field | Value |
 |---|---|
+| Object ID | NFR-018 |
 | Document type | Nonfunctional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | ForgePilot business analysis conversation |
-| Linked artefacts | [Nonfunctional Requirements Index](index.md) |
-| Update rule | Update when this nonfunctional requirement changes materially |
+| Source | ForgePilot business analysis conversation and linked evidence |
+| Source need(s) | [SN-002](../../discovery/stakeholder-needs/SN-002-safe-autonomous-operation.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
+| Related objects | [Index](index.md), [Discovery Index](../../discovery/index.md) |
+| Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Summary
 
-Approval requests must be clear and actionable.
+Approval requests must be explicit, evidence-aware, actionable, and durably recorded.
 
 ## Details
 
-When ForgePilot requires human approval, it must provide a concise and clear request that includes: what is being approved, why approval is necessary, the recommended course of action, alternative options, and potential risks or trade‑offs. The request should outline what happens next if approved and provide explicit options such as approve, revise, or reject. This ensures that decision‑makers can make informed choices without ambiguity.
+Each request must identify what is being approved, why the gate exists, the recommendation, credible alternatives, evidence and evidence gaps, risks and trade-offs, and the consequence of approve, revise, or reject.
+
+Approval records must contain status, approver, approval date, and decision reference. Missing decision metadata means the gate remains pending.
+
+## Acceptance Criteria
+
+- Approval requests present approve, revise, and reject outcomes.
+- The next permitted and blocked activities are explicit.
+- Approval state is stored in the relevant GATE object.
+- No document creation, chat acknowledgement, or inferred intent substitutes for a recorded approval.
 
 ## Notes
 
-Clear approval requests reduce confusion and speed up decision‑making, especially when multiple approval gates exist.
+Product direction, product brief, and prototype scope use GATE-001, GATE-002, and GATE-003 respectively.

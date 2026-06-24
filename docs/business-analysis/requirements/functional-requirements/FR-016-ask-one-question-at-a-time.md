@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-016 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-001](../../discovery/stakeholder-needs/SN-001-rapid-prototype-delivery.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | ../../index.md |
+| Related objects | ../../index.md, [SN-001](../../discovery/stakeholder-needs/SN-001-rapid-prototype-delivery.md) |
 | Update rule | Update when this functional requirement changes materially |
 
 ## Summary

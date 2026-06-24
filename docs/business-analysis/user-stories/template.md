@@ -1,29 +1,29 @@
-# User Story Template
+# US-XXX: Title
 
 ## Document Metadata
 
 | Field | Value |
 |---|---|
+| Object ID | US-XXX |
 | Document type | User Story |
 | Status | Draft |
+| Priority | Must / Should / Could / Won't |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | <Source of user story> |
-| Linked artefacts | <relative links to relevant indexes or related files> |
+| Source | Documented provenance |
+| Source need(s) | Direct links to relevant SN objects |
+| Evidence | Direct links to relevant EVD objects |
+| Linked artefacts | [User Stories Index](index.md) |
+| Related objects | Direct links to related personas, needs, requirements, or outcomes |
 | Update rule | Update when this user story changes materially |
 
-## Title
+## Summary
 
-<Title of the user story>
+State the user need represented by this story.
 
 ## Story
 
-As a <Persona/Actor>, I want to <Goal>, so that <Reason>.
+As a persona or actor, I want a goal, so that a reason.
 
 ## Acceptance Criteria
 
-- <Criterion 1>
-- <Criterion 2>
-
-## Notes
-
-<Additional notes or context about this user story.>
+- Define observable acceptance conditions.

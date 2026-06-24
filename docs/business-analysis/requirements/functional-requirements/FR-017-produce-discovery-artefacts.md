@@ -4,40 +4,36 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-017 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | ForgePilot business analysis conversation |
-| Linked artefacts | ../../index.md |
-| Update rule | Update when this functional requirement changes materially |
+| Source | ForgePilot business analysis conversation and linked evidence |
+| Source need(s) | [SN-001](../../discovery/stakeholder-needs/SN-001-rapid-prototype-delivery.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
+| Related objects | [Index](index.md), [Discovery Index](../../discovery/index.md) |
+| Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Summary
 
-ForgePilot shall produce structured discovery artefacts after the interview phase, capturing essential information about the project in Markdown files under `docs/business-analysis/discovery/`.
+ForgePilot shall produce a token-efficient, collection-based discovery knowledge base before solution design.
 
 ## Details
 
-Upon completion of discovery questions, Codex should create the following documents:
+The discovery package must live under `docs/business-analysis/discovery/`. Singleton documents cover the product brief, problem statement, current state, traceability matrix, and BA quality assessment.
 
-- `product-brief.md`: summarising the overall goal and purpose.
-- `problem-statement.md`: detailing the problem to solve.
-- `target-users.md`: describing intended users or personas.
-- `prototype-hypothesis.md`: explaining what the prototype is meant to prove.
-- `scope.md`: listing what is in scope and out of scope for the prototype.
-- `success-criteria.md`: defining what constitutes a successful prototype.
-- `risks-assumptions-open-questions.md`: capturing known risks, assumptions, and unresolved questions.
-- `user-stories.md`: listing initial user stories or jobs-to-be-done.
-- `definition-of-done.md`: stating high-level acceptance criteria for the project.
+Every repeatable traceable entity must use an atomic collection containing `index.md`, `template.md`, and one file per object. Required collections are target users, stakeholder needs, evidence, prototype hypotheses, value hypotheses, success criteria, scope items, options, risks, assumptions, open questions, approval gates, definition-of-done items, and BA quality checks.
 
-Each artefact should follow the doc-object style with metadata, summary, details, and update rules.
+Existing persona, user-story, and requirement collections remain canonical and are linked rather than duplicated.
 
 ## Acceptance Criteria
 
-- All specified discovery files are created in the repository under the appropriate folder.
-- Documents follow the doc-object format.
-- Information captured during discovery is correctly transcribed into these files.
-- Files are organised under `docs/business-analysis/discovery/`.
+- All required singleton documents exist under the discovery folder.
+- Every required collection contains an index, template, and at least one live object.
+- Indexes provide compact navigation and individual objects contain direct related-object links.
+- The product brief, scope, options, hypotheses, evidence, outcomes, and approval state are mutually traceable.
 
 ## Notes
 
-These artefacts serve as the foundation for solution design and subsequent phases. Keeping them clear and structured supports both Codex and human stakeholders.
+The collection model limits context retrieval by allowing Codex to load an index and only the related objects needed for the current decision.

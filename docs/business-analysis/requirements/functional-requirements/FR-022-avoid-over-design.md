@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-022 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Should |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-005](../../discovery/stakeholder-needs/SN-005-traceable-delivery-and-decisions.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | ../../index.md |
+| Related objects | ../../index.md, [SN-005](../../discovery/stakeholder-needs/SN-005-traceable-delivery-and-decisions.md) |
 | Update rule | Update when this functional requirement changes materially |
 
 ## Summary

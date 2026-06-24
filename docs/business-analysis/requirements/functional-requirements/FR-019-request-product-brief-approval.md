@@ -4,35 +4,34 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-019 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | ForgePilot business analysis conversation |
-| Linked artefacts | ../../index.md |
-| Update rule | Update when this functional requirement changes materially |
+| Source | ForgePilot business analysis conversation and linked evidence |
+| Source need(s) | [SN-002](../../discovery/stakeholder-needs/SN-002-safe-autonomous-operation.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
+| Related objects | [Index](index.md), [Discovery Index](../../discovery/index.md) |
+| Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Summary
 
-ForgePilot shall require human approval of the product brief before moving into solution design. The product brief summarises the app idea, target users, problem statement, prototype hypothesis, scope, success criteria, assumptions, and constraints.
+ForgePilot shall require explicit approval of the canonical discovery product brief before solution design.
 
 ## Details
 
-After the discovery artefacts are drafted, Codex should:
+The approval request must reference the problem, users, needs, evidence, hypotheses, measurable outcomes, scope, options, risks, assumptions, and open questions. The decision must be recorded in GATE-002 with approver, date, decision reference, and approve/revise/reject outcome.
 
-- Present the product brief to the user for review.
-- Explain that this document defines what the project will aim to achieve.
-- Request explicit approval to proceed with solution design.
-- Record the approval decision and, if necessary, any revisions requested by the user.
-
-No architectural or development work should begin until this approval is obtained.
+Creating or updating the brief does not imply approval.
 
 ## Acceptance Criteria
 
-- Codex asks for approval of the product brief.
-- Approval status (approved/rejected/revisions needed) is captured.
-- If approved, solution design can begin.
-- If revisions are required, the brief is updated and approval is requested again.
+- GATE-002 is linked from the product brief.
+- The approval request identifies the recommendation, alternatives, evidence gaps, and consequences.
+- Solution design does not begin while GATE-002 is pending, rejected, or requires revision.
+- Approval is only valid when approver, date, and decision reference are recorded.
 
 ## Notes
 
-This requirement aligns with the approval gate policy to ensure the project direction is validated by the user.
+GATE-001 should be resolved before the recommended direction is treated as final.

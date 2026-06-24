@@ -1,24 +1,29 @@
-# Nonfunctional Requirement Template
+# NFR-XXX: Title
 
 ## Document Metadata
 
 | Field | Value |
 |---|---|
+| Object ID | NFR-XXX |
 | Document type | Nonfunctional Requirement |
 | Status | Draft |
+| Priority | Must / Should / Could / Won't |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | <Source of requirement> |
-| Linked artefacts | <relative links to relevant indexes or related files> |
-| Update rule | Update when this nonfunctional requirement changes materially |
+| Source | Documented provenance |
+| Source need(s) | Direct links to relevant SN objects |
+| Evidence | Direct links to relevant EVD objects |
+| Linked artefacts | [Index](index.md) |
+| Related objects | Direct links to related stories, needs, criteria, or decisions |
+| Update rule | Update when this requirement changes materially |
 
 ## Summary
 
-<Short summary of the nonfunctional requirement>
+State the required outcome, capability, or quality.
 
 ## Details
 
-<Full description of the nonfunctional requirement>
+Describe one atomic requirement without embedding unrelated requirements.
 
-## Notes
+## Acceptance Criteria
 
-<Optional notes, assumptions, or traceability>
+- Define observable or measurable acceptance conditions.

@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | FR-074 |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Could |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-010](../../discovery/stakeholder-needs/SN-010-maintainable-versioned-template.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | [Functional Requirements Index](index.md) |
+| Related objects | [Functional Requirements Index](index.md), [SN-010](../../discovery/stakeholder-needs/SN-010-maintainable-versioned-template.md) |
 | Update rule | Update when this requirement changes materially |
 
 ## Summary

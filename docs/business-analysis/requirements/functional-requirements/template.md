@@ -1,28 +1,29 @@
-# FR-XXX: <Title>
+# FR-XXX: Title
 
 ## Document Metadata
 
 | Field | Value |
 |---|---|
+| Object ID | FR-XXX |
 | Document type | Functional Requirement |
 | Status | Draft |
+| Priority | Must / Should / Could / Won't |
 | Owner/audience | Product Owner, Codex, future maintainers |
-| Source | ForgePilot business analysis conversation |
-| Linked artefacts | [index.md](index.md) |
-| Update rule | Update when this artefact changes materially |
+| Source | Documented provenance |
+| Source need(s) | Direct links to relevant SN objects |
+| Evidence | Direct links to relevant EVD objects |
+| Linked artefacts | [Index](index.md) |
+| Related objects | Direct links to related stories, needs, criteria, or decisions |
+| Update rule | Update when this requirement changes materially |
 
 ## Summary
 
-<Short summary>
+State the required outcome, capability, or quality.
 
 ## Details
 
-<Full functional requirement description>
+Describe one atomic requirement without embedding unrelated requirements.
 
 ## Acceptance Criteria
 
-<Acceptance criteria>
-
-## Notes
-
-<Optional notes, assumptions, or traceability>
+- Define observable or measurable acceptance conditions.

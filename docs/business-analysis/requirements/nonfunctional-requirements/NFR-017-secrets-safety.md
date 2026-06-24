@@ -4,11 +4,16 @@
 
 | Field | Value |
 |---|---|
+| Object ID | NFR-017 |
 | Document type | Nonfunctional Requirement |
 | Status | Draft |
+| Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
+| Source need(s) | [SN-007](../../discovery/stakeholder-needs/SN-007-secrets-and-security-safety.md) |
+| Evidence | [EVD-001](../../discovery/evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../../discovery/evidence/EVD-002-existing-business-analysis-corpus.md) |
 | Linked artefacts | [Nonfunctional Requirements Index](index.md) |
+| Related objects | [Nonfunctional Requirements Index](index.md), [SN-007](../../discovery/stakeholder-needs/SN-007-secrets-and-security-safety.md) |
 | Update rule | Update when this nonfunctional requirement changes materially |
 
 ## Summary
