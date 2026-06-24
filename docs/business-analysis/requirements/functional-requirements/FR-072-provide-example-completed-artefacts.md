@@ -8,7 +8,7 @@
 | Status | Draft |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation |
-| Linked artefacts | [Functional Requirements Index](../index.md) |
+| Linked artefacts | [Functional Requirements Index](index.md) |
 | Update rule | Update when this requirement changes materially |
 
 ## Summary
