@@ -17,19 +17,19 @@ The primary users are solo builders and product owners who want help moving quic
 
 ## Current status
 
-As of June 24, 2026, ForgePilot is in the **pre-solution discovery stage**. This repository currently contains the business-analysis foundation for the product; it does not yet contain an installable or runnable ForgePilot implementation.
+As of June 25, 2026, ForgePilot is at the **Scope → Solution Design checkpoint**. This repository currently contains the approved business-analysis foundation for the product; it does not yet contain an installable or runnable ForgePilot implementation.
 
-The pre-solution quality assessment has passed, with the product problem, users, workflows, options, requirements, risks, proposed scope, traceability, and approval process documented. However, the following human approvals are still pending:
+The pre-solution quality assessment has passed, with the product problem, users, workflows, options, requirements, risks, proposed scope, traceability, and approval process documented. The following human approvals have been recorded:
 
-1. Product direction: approve the recommended reusable GitHub template approach.
-2. Product brief: approve the consolidated product intent and operating model.
-3. Prototype scope: approve the bounded capability slices for the first implementation.
+1. Product direction: approved recommended reusable GitHub template approach.
+2. Product brief: approved consolidated product intent and operating model.
+3. Prototype scope: approved bounded capability slices for the first implementation.
 
-Solution design and implementation must not begin until the applicable approval gates are recorded. The product assumptions and value hypotheses also remain unvalidated; representative pilot users, measurement baselines, supported stack fixtures, runtime approval recording, and mandatory automated checks are still open questions.
+Solution Design may now begin from the approved pre-solution package. Architecture, technology stack, data model, deployment, external services, credentials, material UX/product flows, merge, and final prototype acceptance remain subject to the applicable approval gates. Product assumptions and value hypotheses also remain unvalidated; representative pilot users, measurement baselines, supported stack fixtures, runtime approval recording, and mandatory automated checks are still open questions.
 
-## Proposed first prototype
+## Approved first prototype scope
 
-The current candidate scope is intended to test five areas:
+The approved candidate scope is intended to test five areas:
 
 1. A safe, durable repository operating skeleton.
 2. Chat-led, approval-ready pre-solution discovery.
@@ -37,7 +37,7 @@ The current candidate scope is intended to test five areas:
 4. Repeatable validation of structure, metadata, links, traceability, and secret safety.
 5. Reliable session resumption and final prototype handoff.
 
-A hosted orchestration platform, mandatory paid services, production guarantees, automatic merging, production credentials, and broad compatibility claims are explicitly outside the proposed first prototype.
+A hosted orchestration platform, mandatory paid services, production guarantees, automatic merging, production credentials, and broad compatibility claims are explicitly outside the first prototype.
 
 ## Documentation
 
@@ -48,7 +48,7 @@ The most useful project-level documents are:
 - [Product brief](docs/business-analysis/discovery/product-brief.md)
 - [Problem statement](docs/business-analysis/discovery/problem-statement.md)
 - [Current state](docs/business-analysis/discovery/current-state.md)
-- [Proposed prototype scope](docs/business-analysis/discovery/scope.md)
+- [Approved prototype scope](docs/business-analysis/discovery/scope.md)
 - [Current and target workflows](docs/business-analysis/discovery/workflows.md)
 - [Approval gates](docs/business-analysis/discovery/approval-gates/index.md)
 - [Pre-solution quality assessment](docs/business-analysis/discovery/ba-quality-assessment.md)
