@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-008 |
 | Document type | Prototype Scope |
-| Status | Pending approval |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, future maintainers |
 | Source | Existing scope items, requirements, stories, hypotheses, constraints, and open questions |
@@ -48,7 +48,7 @@ Requirements not listed in the proposed slices remain valid product-backlog cand
 
 | Type | Item | Consequence |
 |---|---|---|
-| Approval | GATE-001, GATE-002, and GATE-003 | Direction, brief, and scope remain provisional; solution design and implementation remain blocked as recorded by each gate |
+| Approval | GATE-001, GATE-002, and GATE-003 | Direction, brief, and scope have been approved; solution design may proceed; implementation may begin after design is recorded and remains subject to later gates for architecture, UX/product flows, external services, credentials, destructive actions, deployment, merge, and final acceptance |
 | Decision | [OQ-002](open-questions/OQ-002-minimum-supported-stack-set.md) | The expanded Node/TypeScript, Python, Go, static-site, Docker, and unknown-stack fixture set is proposed; GATE-003 must confirm whether it is included |
 | Decision | [OQ-003](open-questions/OQ-003-runtime-approval-recording.md) | GitHub issues and pull requests are the proposed primary approval records; approved solution design must validate durable linking and stale-state handling |
 | Decision | [OQ-004](open-questions/OQ-004-factory-validation-automation-boundary.md) | The automated-check boundary is proposed; GATE-003 must confirm it before implementation planning |
@@ -59,4 +59,4 @@ Requirements not listed in the proposed slices remain valid product-backlog cand
 
 ## Acceptance Boundary
 
-GATE-003 may approve, revise, or reject this scope. Approval makes the listed slices eligible for solution design and backlog preparation; it does not approve implementation until GATE-002 is also approved, and it does not pre-approve later material gates.
+GATE-003 has approved this scope. Approval makes the listed slices eligible for solution design and backlog preparation; implementation remains subject to later gates governing architecture, material UX/product flow, external services, credentials, deployment, destructive actions, merge, and final acceptance. Revisions to this scope require re-approval.
