@@ -21,3 +21,5 @@
 | RSK-004 | Existing repository conflicts | Adoption risk | Must | Open | [RSK-004-existing-repository-conflicts.md](RSK-004-existing-repository-conflicts.md) |
 | RSK-005 | Approval gate bypass | Governance risk | Must | Open | [RSK-005-approval-gate-bypass.md](RSK-005-approval-gate-bypass.md) |
 | RSK-006 | Documentation and implementation drift | Maintenance risk | Should | Open | [RSK-006-documentation-drift.md](RSK-006-documentation-drift.md) |
+| RSK-007 | Documentation publication information exposure | Information exposure risk | Must | Open | [RSK-007-documentation-publication-information-exposure.md](RSK-007-documentation-publication-information-exposure.md) |
+| RSK-008 | Wrong-stage Codex behaviour | Operating-model risk | Must | Open | [RSK-008-wrong-stage-codex-behaviour.md](RSK-008-wrong-stage-codex-behaviour.md) |

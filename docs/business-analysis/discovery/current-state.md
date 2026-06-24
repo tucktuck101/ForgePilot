@@ -10,9 +10,9 @@
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
-| Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md) |
-| Evidence | [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-003](evidence/EVD-003-repository-gap-observation.md) |
-| Related objects | [Problem Statement](problem-statement.md), [Workflows](workflows.md), [Options](options/index.md) |
+| Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-002](stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md) |
+| Evidence | [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-003](evidence/EVD-003-repository-gap-observation.md), [EVD-007](evidence/EVD-007-stage-aware-operating-guidance-need.md) |
+| Related objects | [Problem Statement](problem-statement.md), [Workflows](workflows.md), [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md), [Options](options/index.md) |
 | Update rule | Update when this object or its supporting evidence changes materially |
 
 ## Current Workflow
@@ -40,6 +40,7 @@ The current actors are the Solo Builder, Client Approval Authority, Codex Delive
 - Stories and requirements lacked assigned priority and explicit need/evidence links.
 - The product brief did not separate pre-solution evidence from later delivery detail.
 - Options, hypotheses, success measurements, and approval records were not atomic objects.
+- The documented process distinguishes delivery stages and gates, but it does not yet establish how Codex should receive the stage-specific outputs, constraints, review criteria, and stop conditions needed to avoid applying the wrong behaviour.
 - No empirical user-research or performance baseline is recorded.
 
 ## Current-State Conclusion

@@ -10,8 +10,8 @@
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, future maintainers |
 | Source | Existing scope items, requirements, stories, hypotheses, constraints, and open questions |
-| Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-002](stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-003](stakeholder-needs/SN-003-repository-onboarding.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-006](stakeholder-needs/SN-006-repeatable-quality-validation.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md), [SN-009](stakeholder-needs/SN-009-complete-prototype-handoff.md) |
-| Evidence | [EVD-001](evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-004](evidence/EVD-004-user-research-gap.md) |
+| Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-002](stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-003](stakeholder-needs/SN-003-repository-onboarding.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-006](stakeholder-needs/SN-006-repeatable-quality-validation.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md), [SN-009](stakeholder-needs/SN-009-complete-prototype-handoff.md), [SN-011](stakeholder-needs/SN-011-human-consumable-documentation.md) |
+| Evidence | [EVD-001](evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-004](evidence/EVD-004-user-research-gap.md), [EVD-006](evidence/EVD-006-dual-purpose-documentation-intent.md) |
 | Related objects | [Scope Items](scope-items/index.md), [GATE-003](approval-gates/GATE-003-prototype-scope-approval.md), [Traceability Matrix](traceability-matrix.md) |
 | Update rule | Update when GATE-003 records revision or approval, or when a dependency invalidates the proposed boundary |
 
@@ -38,10 +38,11 @@ Test the repository-native ForgePilot operating model as a bounded template prot
 - Automatic merging, inferred approval, or destructive conflict resolution.
 - Full compatibility claims across all operating systems, stacks, package managers, CI systems, and deployment targets.
 - Material UX flows, significant architecture choices, or vendor selections that have not received their specific human approval.
+- Documentation portal design or implementation, including MkDocs configuration, GitHub Pages, site information architecture, publication workflows, generated output, or new documentation-tooling dependencies.
 
 ## Deferred Product Requirements
 
-Requirements not listed in the proposed slices remain valid product-backlog candidates but are not part of the first prototype unless GATE-003 explicitly adds them. In particular, broad multi-stack automation, optional Codex configuration, labels/milestones, larger-sprint optimisation, deployment artefact generation, completed example packs, and version-release automation are deferred.
+Requirements not listed in the proposed slices remain valid product-backlog candidates but are not part of the first prototype unless GATE-003 explicitly adds them. In particular, broad multi-stack automation, optional Codex configuration, labels/milestones, larger-sprint optimisation, deployment artefact generation, completed example packs, version-release automation, and implementation of the human-friendly documentation portal are deferred. FR-081, FR-082, NFR-021, and NFR-022 record product intent and quality boundaries; they do not add portal implementation to the pending prototype scope.
 
 ## Dependencies and Constraints
 
@@ -51,6 +52,7 @@ Requirements not listed in the proposed slices remain valid product-backlog cand
 | Decision | [OQ-002](open-questions/OQ-002-minimum-supported-stack-set.md) | Pilot fixtures cannot be finalised until a representative stack set is chosen |
 | Decision | [OQ-003](open-questions/OQ-003-runtime-approval-recording.md) | Solution design must choose the durable runtime approval record without weakening the policy |
 | Decision | [OQ-004](open-questions/OQ-004-factory-validation-automation-boundary.md) | Validation implementation cannot be finalised until mandatory automated checks are approved |
+| Decision | [OQ-006](open-questions/OQ-006-documentation-portal-implementation-approach.md) | Portal tooling, structure, hosting, search, and publication controls remain deferred to approved solution design |
 | Research | [OQ-005](open-questions/OQ-005-representative-pilot-audience.md) | Value hypotheses cannot be validated without representative participants |
 | Platform | Git and GitHub-compatible workflow | A non-GitHub operating model requires scope and options review |
 | Safety | No secrets, paid services, production resources, deployment, merge, or destructive action without approval | The affected activity remains blocked and must be represented by a gate decision |

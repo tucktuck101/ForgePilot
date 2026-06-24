@@ -23,3 +23,8 @@
 | SC-006 | Context-efficient navigation | Token efficiency | Must | Unvalidated | [SC-006-context-efficient-navigation.md](SC-006-context-efficient-navigation.md) |
 | SC-007 | Repeatable factory validation | Quality | Must | Draft | [SC-007-repeatable-factory-validation.md](SC-007-repeatable-factory-validation.md) |
 | SC-008 | Complete prototype handoff | Handoff | Must | Unvalidated | [SC-008-complete-prototype-handoff.md](SC-008-complete-prototype-handoff.md) |
+| SC-009 | Human-readable documentation consumption | Documentation usability | Must | Unvalidated | [SC-009-human-readable-documentation-consumption.md](SC-009-human-readable-documentation-consumption.md) |
+| SC-010 | Token-efficient documentation retrieval | Token efficiency | Must | Unvalidated | [SC-010-token-efficient-documentation-retrieval.md](SC-010-token-efficient-documentation-retrieval.md) |
+| SC-011 | Documentation publication readiness | Publication readiness | Should | Unvalidated | [SC-011-documentation-publication-readiness.md](SC-011-documentation-publication-readiness.md) |
+| SC-012 | Documentation source-of-truth preservation | Documentation governance | Must | Draft | [SC-012-documentation-source-of-truth-preservation.md](SC-012-documentation-source-of-truth-preservation.md) |
+| SC-013 | Stage-appropriate Codex operation | Operating-model quality | Must | Unvalidated | [SC-013-stage-appropriate-codex-operation.md](SC-013-stage-appropriate-codex-operation.md) |

@@ -9,9 +9,9 @@
 | Priority | Must |
 | Owner/audience | Approval Authority, Product Owner, Codex, reviewers, maintainers |
 | Source | Human approval rules and linked stakeholder needs |
-| Source need(s) | [SN-002](../stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-007](../stakeholder-needs/SN-007-secrets-and-security-safety.md) |
-| Evidence | [EVD-001](../evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../evidence/EVD-002-existing-business-analysis-corpus.md) |
-| Related objects | [GATE-001](GATE-001-options-and-direction-approval.md), [GATE-002](GATE-002-product-brief-approval.md), [GATE-003](GATE-003-prototype-scope-approval.md), [NFR-018](../../requirements/nonfunctional-requirements/NFR-018-clear-approval-requests.md) |
+| Source need(s) | [SN-002](../stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-007](../stakeholder-needs/SN-007-secrets-and-security-safety.md), [SN-011](../stakeholder-needs/SN-011-human-consumable-documentation.md) |
+| Evidence | [EVD-001](../evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](../evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-006](../evidence/EVD-006-dual-purpose-documentation-intent.md) |
+| Related objects | [GATE-001](GATE-001-options-and-direction-approval.md), [GATE-002](GATE-002-product-brief-approval.md), [GATE-003](GATE-003-prototype-scope-approval.md), [NFR-018](../../requirements/nonfunctional-requirements/NFR-018-clear-approval-requests.md), [NFR-022](../../requirements/nonfunctional-requirements/NFR-022-documentation-publication-safety.md) |
 | Update rule | Update when a material approval trigger, authority, outcome, or recording rule changes |
 
 ## Authority and Outcomes
@@ -39,9 +39,16 @@ Missing approver, date, decision reference, or approved boundary means the gate 
 | Real credential, key, token, OAuth client, cloud account, or production resource | Not triggered | Exact resource, purpose, handling method, exposure and revocation plan | Accessing or using the real resource | Security/config decision record without secret values |
 | Existing-repository conflict resolution | Not triggered | Conflicting files, preserve/merge/replace options, diff and reversibility | Overwriting, deleting, or materially changing the conflict | Intake/conflict decision record |
 | Destructive or hard-to-reverse action | Not triggered | Exact action, impact, backup/recovery path, safer alternatives | Performing the action | Issue or decision record with approval reference |
-| External or public deployment | Not triggered | Target, cost, exposure, data, rollback, validation | Deployment or public exposure | Deployment decision record |
+| External or public prototype/application deployment | Not triggered | Target, cost, runtime exposure, data, rollback, validation | Deployment or public runtime exposure | Deployment decision record |
+| Static documentation publication with restricted-information exposure | Not triggered | Intended audience, content boundary, information classification, generated-output review, withdrawal path | Publishing content that would expose, or may reasonably expose, restricted information | Documentation publication decision record |
 | Pull-request merge | Not triggered | PR scope, checks, review state, known limitations | Merge | PR approval/merge record |
 | Final prototype acceptance | Not triggered | Approved scope comparison, test evidence, limitations, handoff checklist | Treating the prototype as accepted or complete | Final acceptance decision |
+
+## Documentation Publication Distinction
+
+Publishing a static documentation presentation generated from repository Markdown is documentation publication, not prototype or application deployment. The deployment gate is therefore not triggered solely because documentation becomes externally accessible.
+
+Documentation publication still requires an explicit approval record when the intended output would expose, or may reasonably expose, sensitive, private, client-confidential, credential-bearing, production-only, or otherwise restricted information. The approval decision must define the intended audience and content boundary. Selecting portal tooling, hosting, site structure, or workflows remains a separate solution-design decision and is not approved by this policy.
 
 ## Required Approval Request Content
 

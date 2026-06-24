@@ -16,8 +16,8 @@
 | Collection | Count | Link |
 |---|---:|---|
 | Business requirements | 13 | [business-requirements/index.md](business-requirements/index.md) |
-| Functional requirements | 80 | [functional-requirements/index.md](functional-requirements/index.md) |
-| Nonfunctional requirements | 20 | [nonfunctional-requirements/index.md](nonfunctional-requirements/index.md) |
+| Functional requirements | 82 | [functional-requirements/index.md](functional-requirements/index.md) |
+| Nonfunctional requirements | 22 | [nonfunctional-requirements/index.md](nonfunctional-requirements/index.md) |
 
 All live requirements use MoSCoW priority and link to source needs and evidence.
 

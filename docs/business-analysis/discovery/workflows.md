@@ -11,8 +11,8 @@
 | Owner/audience | Product Owner, Approval Authority, Codex, operators, reviewers |
 | Source | Problem statement, current state, target users, stories, requirements, and approval rules |
 | Source need(s) | [SN-001](stakeholder-needs/SN-001-rapid-prototype-delivery.md), [SN-002](stakeholder-needs/SN-002-safe-autonomous-operation.md), [SN-003](stakeholder-needs/SN-003-repository-onboarding.md), [SN-005](stakeholder-needs/SN-005-traceable-delivery-and-decisions.md), [SN-008](stakeholder-needs/SN-008-continuity-across-context-limits.md), [SN-009](stakeholder-needs/SN-009-complete-prototype-handoff.md) |
-| Evidence | [EVD-001](evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-003](evidence/EVD-003-repository-gap-observation.md) |
-| Related objects | [Current State](current-state.md), [Approval Policy](approval-gates/operating-policy.md), [Scope](scope.md) |
+| Evidence | [EVD-001](evidence/EVD-001-stakeholder-request-2026-06-24.md), [EVD-002](evidence/EVD-002-existing-business-analysis-corpus.md), [EVD-003](evidence/EVD-003-repository-gap-observation.md), [EVD-007](evidence/EVD-007-stage-aware-operating-guidance-need.md) |
+| Related objects | [Current State](current-state.md), [Approval Policy](approval-gates/operating-policy.md), [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md), [Scope](scope.md) |
 | Update rule | Update when a handoff, exception, gate, or actor responsibility changes |
 
 ## Current Workflow and Pain Points
@@ -39,6 +39,24 @@
 | 7. Backlog handoff | Codex | Approved scope and sufficient design | Gated, traceable delivery issues | Issue is not executable unless prerequisite gates are approved |
 | 8. Delivery and verification | Codex | One approved issue/sprint | Tested change, state updates, draft PR | Destructive actions, credentials, deployment, and merge require their gates |
 | 9. Resume or handoff | Codex/reviewer | Current sprint state and evidence | Resume brief or final handoff | Final prototype acceptance remains a human decision |
+
+## Stage-Aware Operating Guidance Finding
+
+The target workflow spans work types with different purposes, outputs, constraints, review criteria, and stop conditions. ForgePilot therefore needs enough operating guidance for Codex to recognise the current work type and stay within its boundary.
+
+| Work type | Required behaviour and outcome |
+|---|---|
+| Discovery and business analysis | Reduce ambiguity; separate facts, assumptions, recommendations, and questions; improve traceability; do not begin solution design or implementation |
+| Product scope shaping | Clarify value, outcomes, dependencies, exclusions, and approval-ready choices; do not treat proposed direction or scope as approved |
+| Solution-design preparation | Use approved product inputs, compare alternatives, expose trade-offs, and prepare decision requests; do not implement before applicable approvals |
+| Implementation sprint | Make changes bounded by approved scope and the current work item; run relevant checks; update affected documentation and delivery state; prepare review-ready evidence |
+| Validation and QA | Execute applicable checks, record evidence, distinguish failures caused by current work from unrelated failures, and avoid silent scope expansion |
+| Pull-request readiness | Confirm scope, traceability, checks, documentation, summary, and known limitations; do not merge without approval |
+| Context recovery | Stop starting new work, preserve compact current state and next steps, and resume from durable context rather than reconstructing intent from memory |
+
+A single generic instruction set may be insufficient across these work types. Without stage context, Codex may implement during analysis, make design decisions before approval, miss quality or approval gates, produce inconsistent artefacts, or continue past a required stop condition.
+
+This finding states a capability and process need only. It does not approve stage profiles, role lenses, bounded operating loops, reusable skills, issue-level execution metadata, automation, or any other representation. Those concepts remain inputs to [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md) and may be evaluated only during an approved solution-design stage.
 
 ## Exceptions and Failure Paths
 
