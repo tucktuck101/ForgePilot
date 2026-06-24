@@ -1,0 +1,37 @@
+# FR-009: Handle unknown stacks
+
+## Document Metadata
+
+| Field | Value |
+|---|---|
+| Document type | Functional Requirement |
+| Status | Draft |
+| Owner/audience | Product Owner, Codex, future maintainers |
+| Source | ForgePilot business analysis conversation |
+| Linked artefacts | ../../index.md |
+| Update rule | Update when this functional requirement changes materially |
+
+## Summary
+
+When ForgePilot cannot identify a common technology stack, Codex should fall back to targeted repository inspection, documented assumptions, conservative recommendations, and human approval for material trade-offs.
+
+## Details
+
+In cases where stack signals are absent or unfamiliar:
+
+- Codex should inspect the repository structure and contents to infer as much context as possible.
+- Where inference is uncertain, Codex should document assumptions and seek clarification from the user for critical decisions.
+- Proposed tools or scripts should lean toward generic solutions (e.g., basic shell scripts, manual testing) until more information is available.
+- For decisions with significant trade-offs (e.g., selecting a database or deployment platform), Codex should request human approval.
+
+This approach ensures progress without imposing unsupported assumptions or risking misalignment with the project’s actual needs.
+
+## Acceptance Criteria
+
+- Unknown stacks do not break ForgePilot operations.
+- Codex documents assumptions and clarifies uncertainties rather than guessing inappropriate defaults.
+- Human approval is requested when material decisions are required.
+
+## Notes
+
+This requirement complements FR-008 (detect common stack signals) by ensuring the system remains robust when detection fails.
