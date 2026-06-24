@@ -1,0 +1,30 @@
+# FR-069: Overwrite Stale Facts
+
+## Document Metadata
+
+| Field | Value |
+|---|---|
+| Document type | Functional Requirement |
+| Status | Draft |
+| Owner/audience | Product Owner, Codex, future maintainers |
+| Source | ForgePilot business analysis conversation |
+| Linked artefacts | [Functional Requirements Index](../index.md) |
+| Update rule | Update when this requirement changes materially |
+
+## Summary
+
+Project memory should overwrite outdated information rather than accumulating long logs or transcripts.
+
+## Details
+
+The project memory file (`docs/project-memory.md`) is intended to capture stable facts about the current state of the prototype. To keep this file concise and useful, Codex must overwrite stale or outdated facts instead of appending new entries indefinitely. This ensures that the memory remains focused on the latest known truth rather than becoming a long diary.
+
+## Acceptance Criteria
+
+- The system updates `docs/project-memory.md` by replacing outdated facts with the latest information.
+- The memory file remains concise and under the token budget specified in the brief.
+- Sprint notes and resume briefs remain separate and are not merged into project memory.
+
+## Notes
+
+This requirement supports the nonfunctional requirement of token efficiency and maintainability.
