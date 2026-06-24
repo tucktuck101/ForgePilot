@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Document type | Approval Policy |
-| Status | Draft; pending product-brief approval |
+| Status | Draft |
 | Priority | Must |
 | Owner/audience | Approval Authority, Product Owner, Codex, reviewers, maintainers |
 | Source | Human approval rules and linked stakeholder needs |
