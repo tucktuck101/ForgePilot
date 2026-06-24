@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | GATE-003 |
 | Document type | Approval Gate |
-| Status | Pending |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -21,7 +21,9 @@ Approve, revise, or reject DISC-008, including its capability slices, requiremen
 
 ## Decision Record
 
-- Approver: Not recorded.
-- Approval date: Not recorded.
-- Decision reference: Not recorded.
-- Consequence while pending: implementation, backlog execution, and prototype construction must not begin.
+- Decision: Approved.
+- Approver: Jeff, Product Owner / Approval Authority.
+- Approval date: 2026-06-25.
+- Decision reference: Chat approval on 2026-06-25: "I'll approve all 3 and any repo updates you want to make that reflect this."
+- Approved artefact: [DISC-008: Prototype Scope](../scope.md).
+- Consequence after approval: the listed prototype slices are eligible for Solution Design and backlog preparation. This approval does not pre-approve architecture, technology stack, data model, deployment, external services, credentials, material UX/product flows, merge, or final prototype acceptance.
