@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | REQ-QA-001 |
 | Document type | Requirements Quality Baseline |
-| Status | Draft; pending product-brief and prototype-scope approval |
+| Status | Draft |
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, reviewers |
 | Source | Live requirement objects, discovery traceability, and proposed prototype scope |
@@ -17,7 +17,7 @@
 
 ## Quality Rule
 
-A live requirement is ready for controlled handoff only when it has one dominant obligation, a valid MoSCoW priority, a source need, evidence, an observable acceptance or verification method, and a trace to proposed or deferred scope. Product priority does not by itself include a requirement in the first prototype; [DISC-008](../discovery/scope.md) is the authoritative pending prototype boundary.
+A live requirement is ready for controlled handoff only when it has one dominant obligation, a valid MoSCoW priority, a source need, evidence, an observable acceptance or verification method, and a trace to proposed or deferred scope. Product priority does not by itself include a requirement in the first prototype; [DISC-008](../discovery/scope.md) is the authoritative approved prototype boundary.
 
 Business and functional requirement objects contain local acceptance criteria. User stories contain actor goals and local acceptance criteria. The following matrix supplies the explicit verification missing from the nonfunctional requirement objects without changing their intended product decisions.
 
