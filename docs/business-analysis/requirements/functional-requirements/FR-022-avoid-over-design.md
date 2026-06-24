@@ -1,0 +1,33 @@
+# FR-022: Avoid over-design
+
+## Document Metadata
+
+| Field | Value |
+|---|---|
+| Document type | Functional Requirement |
+| Status | Draft |
+| Owner/audience | Product Owner, Codex, future maintainers |
+| Source | ForgePilot business analysis conversation |
+| Linked artefacts | ../../index.md |
+| Update rule | Update when this functional requirement changes materially |
+
+## Summary
+
+Solution design documents should be lean and focused, providing only the necessary detail to build and test the prototype effectively. ForgePilot should avoid over-engineering or excessive documentation.
+
+## Details
+
+- Design artefacts should prioritise clarity and actionable guidance.
+- Documents should avoid duplicating implementation details that will be discovered during sprints.
+- The level of detail should match the complexity of the project; straightforward prototypes require less detailed architecture diagrams and design sections.
+- When in doubt, err on the side of simplicity and supplement with ADRs for significant trade-offs.
+
+## Acceptance Criteria
+
+- Design documents are concise and do not include unnecessary detail.
+- The developer can implement the prototype based on the design without guesswork or extraneous information.
+- Stakeholders find the design easy to understand and maintain.
+
+## Notes
+
+This requirement helps manage token usage and ensures that documentation adds value without becoming an overhead.
