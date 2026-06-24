@@ -15,9 +15,9 @@
 
 | ID | Title | Classification | Priority | Status | Link |
 |---|---|---|---|---|---|
-| GATE-001 | Options and recommended direction approval | Product direction | Must | Pending | [GATE-001-options-and-direction-approval.md](GATE-001-options-and-direction-approval.md) |
-| GATE-002 | Product brief approval | Pre-solution | Must | Pending | [GATE-002-product-brief-approval.md](GATE-002-product-brief-approval.md) |
-| GATE-003 | Prototype scope approval | Pre-implementation | Must | Pending | [GATE-003-prototype-scope-approval.md](GATE-003-prototype-scope-approval.md) |
+| GATE-001 | Options and recommended direction approval | Product direction | Must | Approved | [GATE-001-options-and-direction-approval.md](GATE-001-options-and-direction-approval.md) |
+| GATE-002 | Product brief approval | Pre-solution | Must | Approved | [GATE-002-product-brief-approval.md](GATE-002-product-brief-approval.md) |
+| GATE-003 | Prototype scope approval | Pre-implementation | Must | Approved | [GATE-003-prototype-scope-approval.md](GATE-003-prototype-scope-approval.md) |
 
 ## Runtime Gate Policy
 
