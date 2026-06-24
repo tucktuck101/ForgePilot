@@ -56,7 +56,7 @@ The target workflow spans work types with different purposes, outputs, constrain
 
 A single generic instruction set may be insufficient across these work types. Without stage context, Codex may implement during analysis, make design decisions before approval, miss quality or approval gates, produce inconsistent artefacts, or continue past a required stop condition.
 
-This finding states a capability and process need only. It does not approve stage profiles, role lenses, bounded operating loops, reusable skills, issue-level execution metadata, automation, or any other representation. Those concepts remain inputs to [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md) and may be evaluated only during an approved solution-design stage.
+This finding states a capability and process need. [OQ-007](open-questions/OQ-007-stage-aware-guidance-representation.md) now records a preferred layered representation using concise `AGENTS.md` routing, reusable skills, and issue-level execution metadata. That preference does not approve its detailed design, automation, or implementation, which may proceed only during an approved solution-design stage.
 
 ## Exceptions and Failure Paths
 

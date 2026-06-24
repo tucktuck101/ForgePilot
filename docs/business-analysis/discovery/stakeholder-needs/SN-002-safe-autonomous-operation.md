@@ -27,8 +27,8 @@ The need spans discovery and business analysis, product scope shaping, solution-
 
 A single generic instruction set may be insufficient because it can encourage wrong-stage behaviour, including premature implementation, unapproved design choices, missed gates, inconsistent output quality, or unsafe continuation.
 
-This need does not select an implementation. Stage profiles, role lenses, bounded operating loops, reusable skills, issue-level execution metadata, quality gates, approval gates, and equivalent mechanisms remain future solution considerations under [OQ-007](../open-questions/OQ-007-stage-aware-guidance-representation.md).
+This need does not approve an implementation. [OQ-007](../open-questions/OQ-007-stage-aware-guidance-representation.md) records concise `AGENTS.md` workflow routing, reusable skills, and issue-level execution metadata as the preferred representation, subject to approved solution design and validation.
 
 ## Acceptance or Validation
 
-The broader safe-autonomy need remains represented by linked stories and requirements. The stage-aware finding is validated separately through [SC-013](../success-criteria/SC-013-stage-appropriate-codex-operation.md); no representation or implementation is accepted by this discovery object.
+The broader safe-autonomy need remains represented by linked stories and requirements. The preferred stage-aware representation must still be validated through [SC-013](../success-criteria/SC-013-stage-appropriate-codex-operation.md); no representation or implementation is accepted by this discovery object.

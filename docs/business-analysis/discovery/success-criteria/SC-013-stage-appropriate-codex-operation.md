@@ -21,4 +21,4 @@ For representative discovery and business analysis, product shaping, solution-de
 
 ## Measurement
 
-Future scenario-based operating-model validation; target: all required outputs and controls are observed, with zero actions taken from a blocked or incorrect stage. The representation and automation used to achieve this target remain open under [OQ-007](../open-questions/OQ-007-stage-aware-guidance-representation.md).
+Future scenario-based operating-model validation; target: all required outputs and controls are observed, with zero actions taken from a blocked or incorrect stage. [OQ-007](../open-questions/OQ-007-stage-aware-guidance-representation.md) records the preferred layered representation, but its detailed design, automation, and acceptance remain pending.

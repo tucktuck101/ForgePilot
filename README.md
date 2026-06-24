@@ -17,7 +17,7 @@ The primary users are solo builders and product owners who want help moving quic
 
 ## Current status
 
-As of June 24, 2026, ForgePilot is in the **pre-solution discovery stage**. This repository currently contains the business-analysis foundation for the product; it does not yet contain an installable or runnable ForgePilot implementation.
+As of June 25, 2026, ForgePilot is in the **pre-solution discovery stage**. This repository currently contains the business-analysis foundation for the product; it does not yet contain an installable or runnable ForgePilot implementation.
 
 The pre-solution quality assessment has passed, with the product problem, users, workflows, options, requirements, risks, proposed scope, traceability, and approval process documented. However, the following human approvals are still pending:
 
@@ -25,7 +25,7 @@ The pre-solution quality assessment has passed, with the product problem, users,
 2. Product brief: approve the consolidated product intent and operating model.
 3. Prototype scope: approve the bounded capability slices for the first implementation.
 
-Solution design and implementation must not begin until the applicable approval gates are recorded. The product assumptions and value hypotheses also remain unvalidated; representative pilot users, measurement baselines, supported stack fixtures, runtime approval recording, and mandatory automated checks are still open questions.
+Solution design and implementation must not begin until the applicable approval gates are recorded. The product assumptions and value hypotheses also remain unvalidated. The initial pilot audience, measurement approach, proposed stack fixtures, runtime approval-recording model, and proposed automated-check boundary were answered on June 25, 2026, but measurement and pilot evidence are not yet available and the applicable scope and design approvals remain pending.
 
 ## Proposed first prototype
 

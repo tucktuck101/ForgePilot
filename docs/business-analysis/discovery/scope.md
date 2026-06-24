@@ -49,11 +49,11 @@ Requirements not listed in the proposed slices remain valid product-backlog cand
 | Type | Item | Consequence |
 |---|---|---|
 | Approval | GATE-001, GATE-002, and GATE-003 | Direction, brief, and scope remain provisional; solution design and implementation remain blocked as recorded by each gate |
-| Decision | [OQ-002](open-questions/OQ-002-minimum-supported-stack-set.md) | Pilot fixtures cannot be finalised until a representative stack set is chosen |
-| Decision | [OQ-003](open-questions/OQ-003-runtime-approval-recording.md) | Solution design must choose the durable runtime approval record without weakening the policy |
-| Decision | [OQ-004](open-questions/OQ-004-factory-validation-automation-boundary.md) | Validation implementation cannot be finalised until mandatory automated checks are approved |
-| Decision | [OQ-006](open-questions/OQ-006-documentation-portal-implementation-approach.md) | Portal tooling, structure, hosting, search, and publication controls remain deferred to approved solution design |
-| Research | [OQ-005](open-questions/OQ-005-representative-pilot-audience.md) | Value hypotheses cannot be validated without representative participants |
+| Decision | [OQ-002](open-questions/OQ-002-minimum-supported-stack-set.md) | The expanded Node/TypeScript, Python, Go, static-site, Docker, and unknown-stack fixture set is proposed; GATE-003 must confirm whether it is included |
+| Decision | [OQ-003](open-questions/OQ-003-runtime-approval-recording.md) | GitHub issues and pull requests are the proposed primary approval records; approved solution design must validate durable linking and stale-state handling |
+| Decision | [OQ-004](open-questions/OQ-004-factory-validation-automation-boundary.md) | The automated-check boundary is proposed; GATE-003 must confirm it before implementation planning |
+| Decision | [OQ-006](open-questions/OQ-006-documentation-portal-implementation-approach.md) | MkDocs Material with GitHub Pages is preferred, but portal tooling, structure, publication controls, and implementation remain deferred to approved solution design |
+| Research | [OQ-005](open-questions/OQ-005-representative-pilot-audience.md) | The target audience is selected, but value hypotheses remain unvalidated until 3–5 representative participants complete recorded pilots |
 | Platform | Git and GitHub-compatible workflow | A non-GitHub operating model requires scope and options review |
 | Safety | No secrets, paid services, production resources, deployment, merge, or destructive action without approval | The affected activity remains blocked and must be represented by a gate decision |
 

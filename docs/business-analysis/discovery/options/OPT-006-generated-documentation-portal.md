@@ -28,4 +28,4 @@ Provide a future human-friendly documentation portal generated from the authorit
 
 ## Deferred Implementation Decision
 
-MkDocs and GitHub Pages are candidate mechanisms, not approved selections. The later design must compare them with credible alternatives, address publication safety, and preserve Markdown as the sole source of truth before implementation begins.
+[OQ-006](../open-questions/OQ-006-documentation-portal-implementation-approach.md) records MkDocs Material with GitHub Pages as the Product Owner's preferred proposal after comparison with Docusaurus. This preference is not an approved architecture, dependency, publication target, or implementation boundary. Approved solution design must address publication safety and preserve Markdown as the sole source of truth before implementation begins.

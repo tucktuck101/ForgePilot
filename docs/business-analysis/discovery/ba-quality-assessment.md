@@ -134,10 +134,10 @@
 
 | Remaining gap | Reason not fixed yet | Next action |
 |---|---|---|
-| External user evidence is absent | Evidence cannot be invented | Identify pilot audience and record research/pilot evidence |
+| External user evidence is absent | Evidence cannot be invented | Recruit the OQ-005 audience and record research/pilot evidence |
 | Measurement baselines are absent | No completed comparable pilots exist | Record at least three comparable pilot cycles before improvement claims |
 | Product direction, product brief, and scope are unapproved | Human approval was not provided in repository evidence | Approval Authority reviews GATE-001, GATE-002, and GATE-003 |
-| Runtime approval record implementation is undecided | This is a later solution-design choice | Resolve OQ-003 after GATE-002 |
+| Runtime approval record detailed design is unvalidated | OQ-003 now selects GitHub issues and pull requests as primary records, but solution design remains blocked | Validate durable links and stale-state handling after GATE-002 |
 
 ## BA Quality Gate Attempt 2
 
@@ -264,12 +264,13 @@
 
 | Item | Type | Impact | Required human decision |
 |---|---|---|---|
-| No external user research | Evidence risk | Personas and value remain plausible but unvalidated | Select representative participants and acceptable evidence |
-| No measurement baseline | Measurement risk | Efficiency improvement cannot be claimed | Approve pilot measurement approach |
-| Minimum supported stack set | OQ-002 | Pilot fixtures and portability claim remain open | Choose bounded representative stacks at GATE-003 |
-| Runtime approval record | OQ-003 | Later workflow state design remains open | Choose durable record mechanism during approved solution design |
-| Mandatory automated factory checks | OQ-004 | Validation implementation boundary remains open | Confirm required automated checks at GATE-003 |
-| First pilot audience | OQ-005 | Value hypotheses cannot be tested representatively | Identify pilot participants |
+| No external user research | Evidence risk | Personas and value remain plausible but unvalidated | Recruit and run pilots with the OQ-005 audience |
+| No measurement baseline | Measurement risk | Efficiency improvement cannot be claimed | Record the first three comparable pilot cycles under OQ-001 |
+| Expanded supported stack set | OQ-002 | Fixture and maintenance effort is higher than the narrower alternative | Approve, revise, or reject the proposed set at GATE-003 |
+| Runtime approval record | OQ-003 | GitHub-primary records require durable-link and stale-state handling | Validate the selected model during approved solution design |
+| Mandatory automated factory checks | OQ-004 | The selected automation boundary affects prototype effort | Approve, revise, or reject the boundary at GATE-003 |
+| Portal implementation preference | OQ-006 | Architecture and publication risks remain unresolved | Evaluate and approve the preferred proposal during authorised solution design |
+| Stage-aware guidance preference | OQ-007 | Detailed routing, metadata, and fallback behaviour remain unresolved | Evaluate and approve the preferred proposal during authorised solution design |
 
 ### Approval Status
 
@@ -277,7 +278,7 @@
 |---|---|---|---|
 | Options and direction | Pending | GATE-001 has no approver/date/reference | Approval Authority reviews options and records approve/revise/reject |
 | Product brief | Pending | GATE-002 has no approver/date/reference | Review the complete discovery package and BA result |
-| Prototype scope | Pending | GATE-003 has no approver/date/reference | Review DISC-008 boundaries and unresolved scope decisions |
+| Prototype scope | Pending | GATE-003 has no approver/date/reference | Review DISC-008 boundaries and the proposed OQ-002 and OQ-004 scope inputs |
 | Material UX/product flow | Not triggered | Operating policy | Trigger before making or implementing a material flow choice |
 | Significant architecture/stack | Not triggered | Operating policy | Trigger during solution design if material |
 | External services/credentials/resources | Not triggered | Operating policy | Trigger before selection, access, or configuration |
