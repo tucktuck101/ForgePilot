@@ -24,7 +24,7 @@ The live pre-solution gate report is [DISC-005](discovery/ba-quality-assessment.
 
 ## Current Gate State
 
-- Options and recommended direction: **Pending**.
-- Product brief: **Pending**.
-- Prototype scope: **Pending**.
-- Solution design and implementation remain blocked as defined in the [discovery approval gates](discovery/approval-gates/index.md).
+- Options and recommended direction: **Approved** (GATE-001).
+- Product brief: **Approved** (GATE-002).
+- Prototype scope: **Approved** (GATE-003).
+- Solution design may proceed using these approved artefacts. Implementation work may begin once sufficient design is recorded and remains subject to later design, architecture, external-service, credential, deployment, merge, and acceptance gates, as defined in the [discovery approval gates](discovery/approval-gates/index.md).
