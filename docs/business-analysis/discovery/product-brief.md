@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-001 |
 | Document type | Product Brief |
-| Status | Pending approval |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -33,7 +33,7 @@ Enable a user to move from a vague idea to an approved, working prototype throug
 
 ## Proposed Direction
 
-The current recommendation is [OPT-002: Reusable GitHub template](options/OPT-002-reusable-github-template.md). This direction remains provisional until GATE-001 is approved.
+The approved direction is [OPT-002: Reusable GitHub template](options/OPT-002-reusable-github-template.md), as recorded by [GATE-001](approval-gates/GATE-001-options-and-direction-approval.md).
 
 ## Prototype Intent
 
@@ -73,9 +73,9 @@ Static publication of generated documentation should be governed as documentatio
 
 ## Approval State
 
-- Options and direction: Pending GATE-001.
-- Product brief: Pending GATE-002.
-- Prototype scope: Pending GATE-003.
-- Solution design is blocked while GATE-002 is pending.
-- Implementation is blocked while GATE-002 or GATE-003 is pending.
+- Options and direction: Approved by [GATE-001](approval-gates/GATE-001-options-and-direction-approval.md).
+- Product brief: Approved by [GATE-002](approval-gates/GATE-002-product-brief-approval.md).
+- Prototype scope: Approved by [GATE-003](approval-gates/GATE-003-prototype-scope-approval.md).
+- Solution Design may begin from this approved pre-solution package.
+- Implementation must still follow Design, Plan, and any later material approval gates before execution.
 - Later material decisions remain governed by the [approval operating policy](approval-gates/operating-policy.md).
