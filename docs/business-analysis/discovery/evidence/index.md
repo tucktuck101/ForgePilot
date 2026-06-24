@@ -21,3 +21,4 @@
 | EVD-004 | User research evidence gap | Evidence gap | Must | Unvalidated | [EVD-004-user-research-gap.md](EVD-004-user-research-gap.md) |
 | EVD-005 | Measurement baseline evidence gap | Evidence gap | Must | Unvalidated | [EVD-005-measurement-baseline-gap.md](EVD-005-measurement-baseline-gap.md) |
 | EVD-006 | Dual-purpose documentation intent | Stakeholder statement | Must | Recorded | [EVD-006-dual-purpose-documentation-intent.md](EVD-006-dual-purpose-documentation-intent.md) |
+| EVD-007 | Stage-aware operating guidance need | Stakeholder statement and analysis finding | Must | Recorded | [EVD-007-stage-aware-operating-guidance-need.md](EVD-007-stage-aware-operating-guidance-need.md) |

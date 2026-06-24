@@ -21,3 +21,4 @@
 | OQ-004 | Which factory checks must be automated? | Quality | Must | Open | [OQ-004-factory-validation-automation-boundary.md](OQ-004-factory-validation-automation-boundary.md) |
 | OQ-005 | Who represents the first pilot audience? | Research | Must | Open | [OQ-005-representative-pilot-audience.md](OQ-005-representative-pilot-audience.md) |
 | OQ-006 | How should the human-friendly documentation portal be implemented? | Solution design | Should | Open | [OQ-006-documentation-portal-implementation-approach.md](OQ-006-documentation-portal-implementation-approach.md) |
+| OQ-007 | How should stage-aware operating guidance be represented? | Solution design | Must | Open | [OQ-007-stage-aware-guidance-representation.md](OQ-007-stage-aware-guidance-representation.md) |

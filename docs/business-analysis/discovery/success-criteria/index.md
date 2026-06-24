@@ -27,3 +27,4 @@
 | SC-010 | Token-efficient documentation retrieval | Token efficiency | Must | Unvalidated | [SC-010-token-efficient-documentation-retrieval.md](SC-010-token-efficient-documentation-retrieval.md) |
 | SC-011 | Documentation publication readiness | Publication readiness | Should | Unvalidated | [SC-011-documentation-publication-readiness.md](SC-011-documentation-publication-readiness.md) |
 | SC-012 | Documentation source-of-truth preservation | Documentation governance | Must | Draft | [SC-012-documentation-source-of-truth-preservation.md](SC-012-documentation-source-of-truth-preservation.md) |
+| SC-013 | Stage-appropriate Codex operation | Operating-model quality | Must | Unvalidated | [SC-013-stage-appropriate-codex-operation.md](SC-013-stage-appropriate-codex-operation.md) |

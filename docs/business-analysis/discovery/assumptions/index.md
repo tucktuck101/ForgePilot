@@ -20,3 +20,4 @@
 | ASM-003 | Markdown is acceptable project memory | Documentation assumption | Must | Unvalidated | [ASM-003-markdown-is-acceptable-project-memory.md](ASM-003-markdown-is-acceptable-project-memory.md) |
 | ASM-004 | Template distribution is sufficient | Product assumption | Must | Unvalidated | [ASM-004-template-distribution-is-sufficient.md](ASM-004-template-distribution-is-sufficient.md) |
 | ASM-005 | Core operation needs no paid service | Cost assumption | Should | Unvalidated | [ASM-005-core-operation-needs-no-paid-service.md](ASM-005-core-operation-needs-no-paid-service.md) |
+| ASM-006 | Explicit stage context improves Codex operation | Operating-model assumption | Must | Unvalidated | [ASM-006-explicit-stage-context-improves-codex-operation.md](ASM-006-explicit-stage-context-improves-codex-operation.md) |
