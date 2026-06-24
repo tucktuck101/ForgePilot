@@ -25,6 +25,20 @@ The canonical ForgePilot workflow is:
 
 These are adaptive workflow chunks, not rigid waterfall phases. Determine which chunk applies from the current task. Use that chunk to guide the expected artefacts, reasoning style, approval gates, quality checks, and whether work should proceed, pause, or loop back.
 
+### Chunk definitions
+
+- **Intake** — Understand the request and inspect the relevant repository state, conventions, constraints, existing changes, and conflicts. Produce a bounded task understanding; preserve conflicting files until any required resolution is approved.
+- **Discovery** — Establish the problem, users, needs, evidence, current workflows, desired outcomes, assumptions, risks, and open questions. Reduce ambiguity without prematurely choosing or implementing a solution.
+- **Analysis** — Synthesize discovery inputs into traceable requirements, options, dependencies, trade-offs, and recommendations. Keep evidence and facts distinct from assumptions and proposed decisions.
+- **Scope** — Define the approved delivery boundary: outcomes, included and excluded capabilities, deferred work, dependencies, acceptance conditions, and traceability. Do not treat candidate scope as executable until the applicable scope gate is approved.
+- **Design** — Translate approved product inputs into UX, technical, data, integration, and operational decisions. Compare credible alternatives, record rationale, and pause for approval before committing to any material gated choice.
+- **Plan** — Convert approved scope and sufficient design into ordered, bounded delivery work. Define GitHub Issues, dependencies, acceptance criteria, validation expectations, and the intended issue/branch/draft-PR sequence without executing blocked work.
+- **Develop** — Implement the approved work item with small, traceable changes. Stay within the issue boundary, follow repository conventions, update affected documentation, and stop if implementation exposes a material unapproved decision or scope change.
+- **Test** — Run the applicable automated and manual checks and record useful evidence. Fix failures caused by the current work when they are within scope; document unrelated failures rather than silently broadening the task.
+- **Accept** — Compare the result and evidence against the approved scope and acceptance criteria. Prepare an approval-ready summary of outcomes, limitations, and deviations; only the authorised human may approve merge or final prototype acceptance.
+- **Stabilise** — Make an accepted result dependable for handoff or continued use by addressing in-scope defects, documentation gaps, integration issues, and operational rough edges. Re-run affected checks and preserve known limitations and recovery information.
+- **Iterate** — Use feedback, validation results, operational learning, or changed needs to choose the appropriate earlier chunk and repeat deliberately. Update durable state and reopen approval gates when a material approved boundary has changed.
+
 ## Delivery model
 
 - GitHub Issues are the executable backlog for ForgePilot development.
