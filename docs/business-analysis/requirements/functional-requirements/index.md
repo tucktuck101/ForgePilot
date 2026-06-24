@@ -57,8 +57,8 @@ This index lists all functional requirements for ForgePilot. Each requirement de
 | FR-037 | Maintain test reports | Draft | [FR-037-maintain-test-reports.md](FR-037-maintain-test-reports.md) |
 | FR-038 | Update project memory | Draft | [FR-038-update-project-memory.md](FR-038-update-project-memory.md) |
 | FR-039 | Create branches autonomously | Draft | [FR-039-create-branches-autonomously.md](FR-039-create-branches-autonomously.md) |
-| FR-040 | Commit safe work autonomously | Draft | [FR-040-commit-safe-work-autonomously.md](FR-040-commit-safe-work-autonomously.md) |
-| FR-041 | Create draft PRs autonomously | Draft | [FR-041-create-draft-prs-autonomously.md](FR-041-create-draft-prs-autonomously.md) |
+| FR-040 | Commit safe work autonomously | Draft | [FR-040-commit-safe-work.md](FR-040-commit-safe-work.md) |
+| FR-041 | Create draft PRs autonomously | Draft | [FR-041-create-draft-prs.md](FR-041-create-draft-prs.md) |
 | FR-042 | Link PRs to issues | Draft | [FR-042-link-prs-to-issues.md](FR-042-link-prs-to-issues.md) |
 | FR-043 | Include PR summary | Draft | [FR-043-include-pr-summary.md](FR-043-include-pr-summary.md) |
 | FR-044 | Keep PRs draft until ready | Draft | [FR-044-keep-prs-draft-until-ready.md](FR-044-keep-prs-draft-until-ready.md) |
@@ -95,6 +95,6 @@ This index lists all functional requirements for ForgePilot. Each requirement de
 | FR-075 | Provide changelog | Draft | [FR-075-provide-changelog.md](FR-075-provide-changelog.md) |
 | FR-076 | Track template evolution | Draft | [FR-076-track-template-evolution.md](FR-076-track-template-evolution.md) |
 | FR-077 | Produce final handoff | Draft | [FR-077-produce-final-handoff.md](FR-077-produce-final-handoff.md) |
-| FR-078 | Include setup, run, test, and deployment info | Draft | [FR-078-include-setup-run-test-and-deployment-info.md](FR-078-include-setup-run-test-and-deployment-info.md) |
+| FR-078 | Include setup, run, test, and deployment info | Draft | [FR-078-include-setup-run-test-and-deployment-information.md](FR-078-include-setup-run-test-and-deployment-information.md) |
 | FR-079 | Include known limitations and future backlog | Draft | [FR-079-include-known-limitations-and-future-backlog.md](FR-079-include-known-limitations-and-future-backlog.md) |
 | FR-080 | Include acceptance checklist | Draft | [FR-080-include-acceptance-checklist.md](FR-080-include-acceptance-checklist.md) |
