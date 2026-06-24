@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-008 |
 | Document type | Prototype Scope |
-| Status | Pending approval |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, future maintainers |
 | Source | Existing scope items, requirements, stories, hypotheses, constraints, and open questions |
@@ -19,7 +19,7 @@
 
 Test the repository-native ForgePilot operating model as a bounded template prototype. The prototype should prove the discovery-to-handoff control flow and its traceability; it is not a production orchestration platform and does not need to prove broad stack or deployment compatibility.
 
-## Proposed In-Scope Capability Slices
+## Approved In-Scope Capability Slices
 
 | Slice | Included outcome | Requirement boundary | Completion evidence |
 |---|---|---|---|
@@ -42,13 +42,13 @@ Test the repository-native ForgePilot operating model as a bounded template prot
 
 ## Deferred Product Requirements
 
-Requirements not listed in the proposed slices remain valid product-backlog candidates but are not part of the first prototype unless GATE-003 explicitly adds them. In particular, broad multi-stack automation, optional Codex configuration, labels/milestones, larger-sprint optimisation, deployment artefact generation, completed example packs, version-release automation, and implementation of the human-friendly documentation portal are deferred. FR-081, FR-082, NFR-021, and NFR-022 record product intent and quality boundaries; they do not add portal implementation to the pending prototype scope.
+Requirements not listed in the proposed slices remain valid product-backlog candidates but are not part of the first prototype unless GATE-003 explicitly adds them. In particular, broad multi-stack automation, optional Codex configuration, labels/milestones, larger-sprint optimisation, deployment artefact generation, completed example packs, version-release automation, and implementation of the human-friendly documentation portal are deferred. FR-081, FR-082, NFR-021, and NFR-022 record product intent and quality boundaries; they do not add portal implementation to the approved prototype scope.
 
 ## Dependencies and Constraints
 
 | Type | Item | Consequence |
 |---|---|---|
-| Approval | GATE-001, GATE-002, and GATE-003 | Direction, brief, and scope remain provisional; solution design and implementation remain blocked as recorded by each gate |
+| Approval | GATE-001, GATE-002, and GATE-003 | Direction, brief, and scope are approved; Solution Design may begin while later material approval gates remain in force |
 | Decision | [OQ-002](open-questions/OQ-002-minimum-supported-stack-set.md) | Pilot fixtures cannot be finalised until a representative stack set is chosen |
 | Decision | [OQ-003](open-questions/OQ-003-runtime-approval-recording.md) | Solution design must choose the durable runtime approval record without weakening the policy |
 | Decision | [OQ-004](open-questions/OQ-004-factory-validation-automation-boundary.md) | Validation implementation cannot be finalised until mandatory automated checks are approved |
@@ -59,4 +59,4 @@ Requirements not listed in the proposed slices remain valid product-backlog cand
 
 ## Acceptance Boundary
 
-GATE-003 may approve, revise, or reject this scope. Approval makes the listed slices eligible for solution design and backlog preparation; it does not approve implementation until GATE-002 is also approved, and it does not pre-approve later material gates.
+GATE-003 approved this scope. Approval makes the listed slices eligible for Solution Design and backlog preparation; it does not pre-approve later material gates.
