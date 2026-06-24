@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | DISC-007 |
 | Document type | Value and Success Definition |
-| Status | Draft; pending product-brief approval |
+| Status | Draft |
 | Priority | Must |
 | Owner/audience | Product Owner, Approval Authority, Codex, future maintainers |
 | Source | Linked needs, value hypotheses, prototype hypotheses, and success criteria |
