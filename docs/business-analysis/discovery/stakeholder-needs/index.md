@@ -25,3 +25,4 @@
 | SN-008 | Continuity across context limits | Continuity | Must | Draft | [SN-008-continuity-across-context-limits.md](SN-008-continuity-across-context-limits.md) |
 | SN-009 | Complete prototype handoff | Handoff | Must | Draft | [SN-009-complete-prototype-handoff.md](SN-009-complete-prototype-handoff.md) |
 | SN-010 | Maintainable versioned template | Maintainability | Should | Draft | [SN-010-maintainable-versioned-template.md](SN-010-maintainable-versioned-template.md) |
+| SN-011 | Human-consumable documentation | Documentation consumption | Must | Draft | [SN-011-human-consumable-documentation.md](SN-011-human-consumable-documentation.md) |

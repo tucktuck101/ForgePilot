@@ -20,3 +20,4 @@
 | EVD-003 | Repository discovery-quality gap observation | Repository observation | Must | Addressed | [EVD-003-repository-gap-observation.md](EVD-003-repository-gap-observation.md) |
 | EVD-004 | User research evidence gap | Evidence gap | Must | Unvalidated | [EVD-004-user-research-gap.md](EVD-004-user-research-gap.md) |
 | EVD-005 | Measurement baseline evidence gap | Evidence gap | Must | Unvalidated | [EVD-005-measurement-baseline-gap.md](EVD-005-measurement-baseline-gap.md) |
+| EVD-006 | Dual-purpose documentation intent | Stakeholder statement | Must | Recorded | [EVD-006-dual-purpose-documentation-intent.md](EVD-006-dual-purpose-documentation-intent.md) |

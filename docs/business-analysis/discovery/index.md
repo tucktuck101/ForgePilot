@@ -13,7 +13,7 @@
 
 ## Purpose
 
-Provide compact navigation to pre-solution evidence and decisions. Load this index first, then only the directly related objects needed for the current task.
+Provide compact navigation to pre-solution evidence and decisions. Load this index first, then only the directly related objects needed for the current task. The same linked Markdown source is also intended to support a future human-friendly documentation presentation without becoming a second source of truth.
 
 ## Singleton Documents
 

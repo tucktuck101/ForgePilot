@@ -52,5 +52,6 @@
 | US-035 | Version the Template | ForgePilot Maintainer | Could | [SN-010](../discovery/stakeholder-needs/SN-010-maintainable-versioned-template.md) | Draft | [US-035-version-the-template.md](US-035-version-the-template.md) |
 | US-036 | Maintain a Changelog | ForgePilot Maintainer | Could | [SN-010](../discovery/stakeholder-needs/SN-010-maintainable-versioned-template.md) | Draft | [US-036-maintain-a-changelog.md](US-036-maintain-a-changelog.md) |
 | US-037 | Keep Examples Separate from Truth | ForgePilot Maintainer | Must | [SN-010](../discovery/stakeholder-needs/SN-010-maintainable-versioned-template.md) | Draft | [US-037-keep-examples-separate-from-truth.md](US-037-keep-examples-separate-from-truth.md) |
+| US-038 | Navigate ForgePilot Documentation | User, Reviewer, Maintainer | Must | [SN-011](../discovery/stakeholder-needs/SN-011-human-consumable-documentation.md) | Draft | [US-038-navigate-forgepilot-documentation.md](US-038-navigate-forgepilot-documentation.md) |
 
 No current user story is assigned `Won't`.
