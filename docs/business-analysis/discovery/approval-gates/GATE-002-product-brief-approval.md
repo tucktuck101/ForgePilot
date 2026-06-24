@@ -6,7 +6,7 @@
 |---|---|
 | Object ID | GATE-002 |
 | Document type | Approval Gate |
-| Status | Pending |
+| Status | Approved |
 | Priority | Must |
 | Owner/audience | Product Owner, Codex, future maintainers |
 | Source | ForgePilot business analysis conversation and linked evidence |
@@ -21,7 +21,7 @@ Approve, revise, or reject the product brief after confirming the problem, targe
 
 ## Decision Record
 
-- Approver: Not recorded.
-- Approval date: Not recorded.
-- Decision reference: Not recorded.
-- Consequence while pending: solution design must not begin.
+- Approver: Product Owner / Jeff.
+- Approval date: 2026-06-25.
+- Decision reference: ChatGPT conversation approval instruction approving GATE-001, GATE-002, and GATE-003.
+- Consequence after approval: The product brief may now be treated as approved input to solution design.
